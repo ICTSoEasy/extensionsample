@@ -1,0 +1,38 @@
+Type: IPython Notebook Extension
+Compatibility: 4.x, 5.x
+Name: extensionsample
+Main: index.js
+Description: adds buttons for cell highlights
+Parameters:
+- name: extensionsample.activity
+  description: Enable activity cell colour  / empinken button
+  input_type: checkbox
+  default: true
+- name: extensionsample.student
+  description: Enable student contribution cell colour  / empinken button
+  input_type: checkbox
+  default: true
+- name: extensionsample.commentate
+  description: Enable feedback cell colour  / empinken button
+  input_type: checkbox
+  default: true
+- name: extensionsample.solution
+  description: Enable solution cell colour  / empinken button
+  input_type: checkbox
+  default: true
+- name: extensionsample.student_colour
+  description: Select contribution cell colour
+  input_type: color
+  default: "#ffffcc"
+- name: extensionsample.activity_colour
+  description: Select activity cell colour
+  input_type: color
+  default: "#c8ecff"
+- name: extensionsample.solution_colour
+  description: Select solution cell colour
+  input_type: color
+  default: "#87f287"
+- name: extensionsample.commentate_colour
+  description: Select feedback cell colour
+  input_type: color
+  default: "#eda7c3"
